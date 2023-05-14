@@ -1,0 +1,19 @@
+.ul-item {
+    font-size: large;
+    color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    flex: 1;
+    margin-right: 10px;
+}
+
+li:last-child {
+    margin-right: 0;
+}
