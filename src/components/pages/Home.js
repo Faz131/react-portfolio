@@ -3,10 +3,15 @@ import backgroundImage from '../../assets/backgroundImage.png'
 
 const style = {
     homeStyle: {
-        backgroundColor: 'blue',
+
         backgroundImage: `url(${backgroundImage})`,
         backgroundSize: 'cover',
-        backgroundPosition: 'center', height: '100vh', width: '100vw'
+        backgroundPosition: 'center', height: '100vh', width: '100vw',
+        display: 'flex',
+        // justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column'
+
 
     }
 }
@@ -16,9 +21,10 @@ export default function Home() {
 
 
 
-        <div>           <h1 style={style.homeStyle}>
-            My Portfolio
-        </h1>
+        <div>
+            <h1 style={style.homeStyle}>
+                My Portfolio
+            </h1>
 
 
         </div>

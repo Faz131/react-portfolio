@@ -3,6 +3,7 @@
     color: blue;
     display: flex;
     flex-wrap: wrap;
+    justify-content: right;
     gap: 10px;
     list-style: none;
     padding: 0;
