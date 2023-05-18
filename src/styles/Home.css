@@ -1,0 +1,24 @@
+h1 {
+    font-size: large;
+    display: flex;
+    justify-content: center;
+}
+
+.my_image_container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 75;
+}
+
+.my_image {
+    width: 150px;
+    height: 150px;
+
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background-color: #7089A7;
+}

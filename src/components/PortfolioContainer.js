@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Project from './pages/Project';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import Footer from './Footer.js'
 
 
 export default function PortfolioContainer() {
@@ -38,7 +39,12 @@ export default function PortfolioContainer() {
             <Nav currentPage={currentPage}
                 handlePageChange={handlePageChange} />
             {renderPage()}
+
+            {/* Style this */}
+            <Footer />
         </div>
+
+
     )
 
 }
