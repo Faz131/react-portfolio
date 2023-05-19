@@ -1,4 +1,4 @@
-.ul-item {
+/* .ul-item {
     font-size: large;
     color: blue;
     display: flex;
@@ -17,4 +17,34 @@
 
 li:last-child {
     margin-right: 0;
+} */
+
+:root {
+    --navbar-color: #008388;
+    --navbar-focus: #120668;
+}
+
+nav a.nav-link {
+    font-weight: 500;
+    letter-spacing: 0.038rem;
+    cursor: pointer;
+}
+
+nav ul li {
+    text-transform: uppercase;
+}
+
+.navbar-nav>li>a {
+    color: var(--navbar-color)
+}
+
+.navbar-nav>li>a.active,
+.navbar-nav>li>a:focus {
+    border-bottom: 0.188rem solid;
+    color: var(--navbar-focus)
+}
+
+.navbar-nav>li>a:hover {
+    border-bottom: 0.188rem solid;
+    color: var(--navbar-focus)
 }

@@ -4,7 +4,7 @@ import React from "react";
 
 function Footer() {
     return (
-        <div>
+        <div class="text-bg-secondary p-3">
             <p>
                 GitHub
             </p>

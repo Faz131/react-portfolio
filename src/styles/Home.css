@@ -6,9 +6,9 @@ h1 {
 
 .my_image_container {
     display: flex;
-    justify-content: left;
-    align-items: center;
-    height: 75;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 25;
 }
 
 .my_image {
@@ -19,6 +19,9 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-body {
-    background-color: #7089A7;
+root {
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
+.para-tag {}

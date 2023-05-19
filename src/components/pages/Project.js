@@ -45,10 +45,10 @@ const allProjects = [
 
 function Project() {
     return (
-        <div className="flex-container">
+        <div className="flex-container text-bg-success p-3" >
             {allProjects.map((project) => (
                 <div className="flex-item" key={project.title}>
-                    <img src={project.image} alt={project.title} />
+                    <img className="project-image" src={project.image} alt={project.title} />
                     <h2>{project.title}</h2>
                     <p><a href={project.link}>Visit site</a></p>
                     <p><a href={project.dpLink}>View on Dribbble</a></p>
