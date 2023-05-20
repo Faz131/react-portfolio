@@ -1,0 +1,24 @@
+.contact-div {
+    background-color: rgb(162, 162, 162);
+    height: 85vh;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.25rem;
+
+}
+
+.form-element {
+    margin-bottom: 1rem;
+
+}
+
+.form-element label {
+    margin-right: 0.5rem;
+}
+
+.submit-button {
+    align-self: flex-start;
+}

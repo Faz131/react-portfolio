@@ -1,0 +1,8 @@
+.experience {
+    display: flex;
+    justify-content: space-between;
+}
+
+.timeline-container .vertical-timeline {
+    flex-basis: 45%;
+}
