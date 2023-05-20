@@ -1,12 +1,30 @@
 .flex-container {
     display: flex;
     flex-wrap: wrap;
+    height: 150vh;
+    background-color: slategrey;
 }
 
 .flex-item {
     flex: 1 0 calc(50% - 10px);
-    margin: 5px;
-    background-color: #fff;
+    /* margin: 5px; */
+
     padding: 10px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
+}
+
+.project-image {
+    width: 200px;
+    /* Set the desired width */
+    height: 200px;
+    /* Set the desired height */
+}
+
+.git-style,
+.deploy-style {
+    color: mediumblue;
+}
+
+.tech-style {
+    font-size: medium;
 }

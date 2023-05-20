@@ -1,0 +1,21 @@
+.footer-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #f5f5f5; */
+    padding: 10px;
+
+
+
+}
+
+.footer-style a {
+    color: #070707;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-style a:hover {
+    color: #0077b5;
+    /* LinkedIn blue */
+}

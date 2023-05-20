@@ -1,27 +1,56 @@
+:root {
+    --h1-color: #B0A2C7;
+    --body-color: #806E9D;
+}
+
+
+
 h1 {
-    font-size: large;
-    display: flex;
-    justify-content: center;
+    display: block;
+    width: 100%;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    text-align: left;
+    font-weight: bold;
+    margin: 0;
+    /* Remove any default margin */
+    padding: 1.25;
+
+}
+
+.div-h1 {
+    background-color: var(--body-color);
+    height: 25vh;
+
+
 }
 
 .my_image_container {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 25;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100;
+    background-color: var(--body-color);
 }
 
 .my_image {
-    width: 150px;
-    height: 150px;
-
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
 }
 
-root {
-    margin-top: 0;
-    margin-bottom: 0;
-}
 
-.para-tag {}
+
+.para-tag {
+    display: flex;
+    align-items: center;
+    /* Vertical centering */
+    justify-content: center;
+    /* Horizontal centering */
+    height: 25vh;
+
+    background-color: var(--body-color);
+}

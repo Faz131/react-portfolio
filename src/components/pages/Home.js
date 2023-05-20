@@ -6,16 +6,25 @@ import '../../styles/Home.css'
 function Home() {
     return (
         <>
-            <div className="text-bg-success p-3">
-                <h1  >
-                    My Portfolio
-                </h1>
-                <img src={backgroundImage} alt="My background" className="my_image my_image_container"></img>
 
+
+            <div className="div-h1">
+                <h1>
+                    Hi I'm Mike
+                    Aspring Junior Web Developer
+                </h1>
+            </div>
+            <div className="my_image_container  ">
+                <img src={backgroundImage} alt="My background" className="my_image  "></img>
+            </div>
+            <div>
                 <p className="para-tag">
                     Welcome to my Portfolio.  This is just a brief introduction
                 </p>
             </div>
+
+
+
         </>
 
     )

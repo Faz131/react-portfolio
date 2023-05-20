@@ -40,7 +40,7 @@ export default function PortfolioContainer() {
                 handlePageChange={handlePageChange} />
             {renderPage()}
 
-            {/* Style this */}
+
             <Footer />
         </div>
 

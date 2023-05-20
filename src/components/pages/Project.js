@@ -1,22 +1,34 @@
 import React from "react";
 import '../../styles/Projects.css';
 import proectImage1 from '../../assets/note_taker.png';
-import Project_Template from "../Project_Template";
+// import Project_Template from "../Project_Template";
 import projectImage2 from '../../assets/Login.png'
+import projectImage3 from '../../assets/PWA.png'
 
 const allProjects = [
     {
         image: proectImage1,
-        title: 'Project 1',
-        link: 'www.google.com',
-        dpLink: 'www.google.com',
+        title: 'Note Taker',
+        tech: 'HTML,CSS, JavaScript, JQuery',
+        link: 'https://github.com/Faz131/Note-Taker',
+        dpLink: 'https://agile-hamlet-63297.herokuapp.com/',
+
     },
 
     {
         image: projectImage2,
-        title: 'Project 2',
-        link: 'www.google.com',
-        dpLink: 'www.google.com',
+        title: 'No Bot Review Social Site',
+        tech: 'JavaScript,TailWinds, Handlebars, ExpressJS, Insomnia',
+        link: 'https://github.com/Faz131/NoBot-Reviews',
+        dpLink: 'https://dashboard.heroku.com/apps/morning-garden-26803',
+    },
+
+    {
+        image: projectImage3,
+        title: 'Text Editor PWA',
+        tech: 'CSS,JavaScript,WebPack,ExpressJS',
+        link: 'https://github.com/Faz131/Text-Editor',
+        dpLink: 'https://desolate-dusk-68894.herokuapp.com/',
     }
 
 ]
@@ -45,13 +57,14 @@ const allProjects = [
 
 function Project() {
     return (
-        <div className="flex-container text-bg-success p-3" >
+        <div className="flex-container  p-3" >
             {allProjects.map((project) => (
                 <div className="flex-item" key={project.title}>
                     <img className="project-image" src={project.image} alt={project.title} />
                     <h2>{project.title}</h2>
-                    <p><a href={project.link}>Visit site</a></p>
-                    <p><a href={project.dpLink}>View on Dribbble</a></p>
+                    <h3 className="tech-style">{project.tech}</h3>
+                    <p><a href={project.link} className="git-style">GitHub Repo</a></p>
+                    <p ><a href={project.dpLink} className="deploy-style">Heroku Deploy</a></p>
                 </div>
             ))}
         </div>
