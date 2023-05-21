@@ -48,3 +48,7 @@ nav ul li {
     border-bottom: 0.188rem solid;
     color: var(--navbar-focus)
 }
+
+/* .navbar-toggler-icon {
+    background-color: white;
+} */
