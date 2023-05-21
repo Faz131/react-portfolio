@@ -1,0 +1,10 @@
+.about-style {
+    background-color: #cc9bec;
+    height: 100vh;
+}
+
+.about-h1 {
+    color: black;
+    font-weight: bold;
+    /* font-family: "Roboto", sans-serif; */
+}

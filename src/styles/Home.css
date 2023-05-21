@@ -5,10 +5,26 @@
 
 
 
+.welcome-text {
+    animation: fade-in 2s ease-in-out;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 h1 {
-    display: block;
-    width: 100%;
-    font-size: 24px;
+    display: flex;
+    width: 50%;
+    font-size: small;
     font-family: "Roboto", sans-serif;
     color: #333;
     text-align: left;
@@ -32,6 +48,7 @@ h1 {
     /* align-items: center; */
     height: 100;
     background-color: var(--body-color);
+
 }
 
 .my_image {
@@ -52,5 +69,19 @@ h1 {
     /* Horizontal centering */
     height: 25vh;
 
+
+
+
+
+
+
     background-color: var(--body-color);
+}
+
+.tech-list {}
+
+.para-tag li {
+    list-style: none;
+    padding-right: 0.3125rem;
+    padding-left: 0.3125rem;
 }

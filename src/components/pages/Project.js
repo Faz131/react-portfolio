@@ -20,7 +20,7 @@ const allProjects = [
         title: 'No Bot Review Social Site',
         tech: 'JavaScript,TailWinds, Handlebars, ExpressJS, Insomnia',
         link: 'https://github.com/Faz131/NoBot-Reviews',
-        dpLink: 'https://dashboard.heroku.com/apps/morning-garden-26803',
+        dpLink: 'https://morning-garden-26803.herokuapp.com/',
     },
 
     {
@@ -63,8 +63,8 @@ function Project() {
                     <img className="project-image" src={project.image} alt={project.title} />
                     <h2>{project.title}</h2>
                     <h3 className="tech-style">{project.tech}</h3>
-                    <p><a href={project.link} className="git-style">GitHub Repo</a></p>
-                    <p ><a href={project.dpLink} className="deploy-style">Heroku Deploy</a></p>
+                    <p><a href={project.link} target="_blank" className="git-style">GitHub Repo</a></p>
+                    <p ><a href={project.dpLink} target="_blank" className="deploy-style">Heroku Deploy</a></p>
                 </div>
             ))}
         </div>
